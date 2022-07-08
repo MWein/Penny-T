@@ -20,9 +20,13 @@ UI: The UI will display cards with each active strategy. The cards will show the
 
 Closing a trade: When the trade is closed, the closing price of each leg will be collected. This will then be saved for tax calculation purposes. Maybe a nice graph view. This will be displayed on a dedicated monitor.
 
+Editing trades, open or closed: I'll screw this up every once in awhile.
+
 When closing a trade, there should be some mechanism where I can tell the app the trade is closed, but not yet enter the closing prices. There would be a todo list or something where I can enter that information at a later date.
 
 ## Additional features
+
+Adjustments. I adjust option trades on occasion when they don't quite go my way. This might be a touch complicated since some legs will be closed while others would be opened. Early DB design will need to account for that.
 
 Tax calculation. I have a tendancy to spend it as I make it. In my first year of actual success in the stock market, I kinda forgot about the whole tax thing. At first I'll just use my highest tax bracket based on my other incomes. Later, I'd like to be able to input info from my paychecks including taxes withheld so I can see a better estimate of my tax bill from all sources.
 
